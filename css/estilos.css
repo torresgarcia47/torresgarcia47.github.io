@@ -56,19 +56,22 @@
         text-align: center;
     }
     .section-padding{
-        padding: 10px 0;
+        padding: 50px 0;
     }
     #paddin{
         padding-top: 50px;
     }
     #paddin2{
         padding-top: 40px;
+        padding-left: 18px;
+        padding-right: 18px;
     }
 }
  
 .card{
     border-radius: 5%;
     font-family: 'Barlow', sans-serif;
+   
 }
 .card h3{
     font-family: 'Titillium Web', sans-serif;
@@ -76,12 +79,15 @@
 .btn{
     border-radius: 10%;
     background-color: #5D9C59;
+   
 }
 .section-padding{
     padding: 10px;
+   
 }
 #paddin2{
     padding-top: 50px;
+  
 }
 #paddin{
     padding-top: 50px;
@@ -96,6 +102,13 @@
     font-size: 40px;
     
 }
+#centrar{
+        place-items: center;
+        display: grid;
+        padding-top: 20px;
+        padding-bottom: 20px;
+}
+
 /*Copiar en todos*/
 .about-foot{ 
     padding-top: 50px;
