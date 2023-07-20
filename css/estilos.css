@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Titillium+Web:wght@300&display=swap');
+#colorsiris{
+    background-color: #5D9C59;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top:25px ;
+    font-family: 'Titillium Web', sans-serif;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    line-height: 1.9;
+    font-family: 'Barlow', sans-serif;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #5D9C59;
+    color: #fff;
+    padding: 5px 20px;
+    font-display: inline-block;
+    margin-top: 25px;
+    border-radius: 5px;
+    font-family: 'Barlow', sans-serif;
+
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background:rgb(0,0,0,0.6);
+    z-index: 1;
+
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+
+}
+@media(max-width: 767px ) {
+    .navbar-nav{
+        text-align: center;
+    }
+    .section-padding{
+        padding: 50px 0;
+    }
+    #paddin{
+        padding-top: 50px;
+    }
+    #paddin2{
+        padding-top: 40px;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+}
+ 
+.card{
+    border-radius: 5%;
+    font-family: 'Barlow', sans-serif;
+   
+}
+.card h3{
+    font-family: 'Titillium Web', sans-serif;
+}
+.btn{
+    border-radius: 10%;
+    background-color: #5D9C59;
+   
+}
+.section-padding{
+    padding: 10px;
+   
+}
+#paddin2{
+    padding-top: 50px;
+  
+}
+#paddin{
+    padding-top: 50px;
+}
+.descripcion{
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+.titulo{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    
+}
+#centrar{
+        place-items: center;
+        display: grid;
+        padding-top: 20px;
+        padding-bottom: 20px;
+}
+
+/*Copiar en todos*/
+.about-foot{ 
+    padding-top: 50px;
+}
+.contacto{
+    padding: 10px;
+    padding-top: 50px;
+  
+    list-style: none;
+}
+
+footer h3{
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
+}
+footer{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 17px;
+    color: #fff;
+    background-color: #5D9C59;
+}
+
+.universal{
+    display: none;
+    background-color: #fff;
+    height: 75vh;
+    width: 80vw;
+    border-radius: 5px;
+    z-index: 2;
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.gris{
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left: 0;
+    background:rgb(0,0,0,0.6);
+    display: none;
+    z-index: 1;
+}
+.cerrar{
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: bolder;
+    color: #fff;
+    background-color: #F15A59;
+    
+}
